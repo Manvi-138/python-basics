@@ -1,0 +1,9 @@
+choco=["dairymilk","kitkat","munch","fivestar","gems"]
+shakes=["strawberry","chocolate","vanilla","butterscotch"]
+items=[choco+shakes]
+choco.append("perk")
+choco.pop(2)
+choco.insert(2,"munch")
+print(choco)
+print(shakes)
+print(items)
